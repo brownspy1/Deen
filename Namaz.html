@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Namaz Cards</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #079ba8, #047c8a);
+      font-family: 'Hind Siliguri', sans-serif;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center p-6">
+   
+  <div class="text-center mb-10 w-full">
+    <h1 class="text-white text-3xl sm:text-4xl font-bold drop-shadow-lg">🕌সহজ নামাজ শিক্ষা</h1>
+    <p class="text-white mt-2 text-base sm:text-lg">যেকোনো নামাজ এর নিয়ম এবং নির্দেশনা জানতে তার উপর ক্লিক করুন। </p>
+  </div>
+
+  <!-- Add this inside your <body> just before the grid starts -->
+    <div class="w-full max-w-3xl mb-10">
+        <div class="bg-white rounded-3xl shadow-2xl p-4 sm:p-6">
+          <h2 class="text-xl sm:text-2xl font-semibold text-[#079ba8] text-center mb-4">আজকের নামাজের সময়সূচি</h2>
+          <iframe
+            id="iframe"
+            title="Prayer Widget"
+            class="w-full rounded-xl border border-gray-200"
+            style="height: 300px;"
+            scrolling="no"
+            src="https://www.islamicfinder.org/prayer-widget/1336137/shafi/3/0/18.0/18.0"
+          ></iframe>
+        </div>
+      </div>
+      
+      
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl">
+    <a href="fazar.html" class="bg-white rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:shadow-[#065e66]">
+      <h2 class="text-2xl font-bold text-[#079ba8] mb-1">Fazar</h2>
+    </a>
+    <a href="johor.html" class="bg-white rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:shadow-[#065e66]">
+      <h2 class="text-2xl font-bold text-[#079ba8] mb-1">Johor</h2>
+    </a>
+    <a href="asar.html" class="bg-white rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:shadow-[#065e66]">
+      <h2 class="text-2xl font-bold text-[#079ba8] mb-1">Asar</h2>
+    </a>
+    <a href="magrib.html" class="bg-white rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:shadow-[#065e66]">
+      <h2 class="text-2xl font-bold text-[#079ba8] mb-1">Magrib</h2>
+    </a>
+    <a href="isa.html" class="bg-white rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:shadow-[#065e66]">
+      <h2 class="text-2xl font-bold text-[#079ba8] mb-1">Isa</h2>
+    </a>
+    <a href="dui-eid.html" class="bg-white rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:shadow-[#065e66]">
+      <h2 class="text-2xl font-bold text-[#079ba8] mb-1">Dui Eid er Namaz</h2>
+    </a>
+    <a href="mohilader.html" class="bg-white rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:shadow-[#065e66]">
+      <h2 class="text-2xl font-bold text-[#079ba8] mb-1">Mohilader Namaz</h2>
+    </a>
+    <a href="janaja.html" class="bg-white rounded-3xl shadow-2xl p-8 flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:shadow-[#065e66]">
+      <h2 class="text-2xl font-bold text-[#079ba8] mb-1">Janajar Namaz</h2>
+    </a>
+  </div>
+</body>
+</html>
